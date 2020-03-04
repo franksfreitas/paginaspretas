@@ -6,7 +6,8 @@
          url('cooper_black_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-};
+
+}
 /*
 	Eventually by HTML5 UP
 	html5up.net | @ajlkn
@@ -246,7 +247,9 @@ h1 {
 
 h2 {
   font-size: 1.75em;
-  line-height: 1.5em; }
+  line-height: 1.5em; 
+  font-family: 'cooper_blackregular';
+}
 
 h3 {
   font-size: 1.35em;
@@ -398,7 +401,11 @@ ul.icons {
 #header h1 {
   font-size: 5em;
   text-align: center;
-  color: white }
+  color: white 
+  font-size: 'cooper_blackregular'
+  font-weight:bold;
+  color: #FFFFFF;
+}
 
 #header p {
   font-size: 2em;
