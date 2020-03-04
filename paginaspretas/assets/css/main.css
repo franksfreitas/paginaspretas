@@ -484,8 +484,6 @@ ul.icons {
     }
 
 .btn {
-  font-weight: 4000;
-  color: #212529;
   text-align: center;
   cursor: pointer;
   -webkit-user-select: none;
@@ -500,7 +498,7 @@ ul.icons {
   line-height: 1.5;
   border-radius: 0.3rem;
   margin-bottom: 16px;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; float:left:width:50%
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -509,22 +507,31 @@ ul.icons {
   }
 }
 
+@media only screen and (max-width: 600px) {
+      .btn {
+          display: flex;
+          justify-content: center;
+      }
+    }
+
 
 .btn-light {
-  color: black;
+  color: black !important;
   background-color: white;
   border-color: black;
+  justify-content: center;
 }
 
 .btn-light:hover {
   color: #212529;
   background-color: #e2e6ea;
   border-color: #dae0e5;
+  justify-content: center;
 }
 
 
 .btn-dark {
-  color: #fff;
+  color: white;
   background-color: black;
   border-color: white;
 }
@@ -534,8 +541,3 @@ ul.icons {
   background-color: #23272b;
   border-color: #1d2124;
 }
-
-
-
-
-
