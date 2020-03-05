@@ -2,15 +2,16 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 @font-face {
     font-family: 'cooper_blackregular';
-    src: url('cooper_black_regular-webfont.woff2') format('woff2'),
-         url('cooper_black_regular-webfont.woff') format('woff');
+    src: url('../webfonts/cooper_black_regular-webfont.woff2') format('woff2'),
+         url('../webfonts/cooper_black_regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-};
+
+}
 /*
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Eventually by HTML5 UP
+  html5up.net | @ajlkn
+  Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -27,7 +28,6 @@ section, summary, time, mark, audio, video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font-family: 'cooper_blackregular';
   vertical-align: baseline;
   text-align: center; }
 
@@ -242,11 +242,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 2.5em;
-  line-height: 1.25em; }
+  line-height: 1.25em; 
+  font-family: 'cooper_blackregular';
+}
 
 h2 {
   font-size: 1.75em;
-  line-height: 1.5em; }
+  line-height: 1.5em; 
+}
 
 h3 {
   font-size: 1.35em;
@@ -398,15 +401,23 @@ ul.icons {
 #header h1 {
   font-size: 5em;
   text-align: center;
-  color: white }
+  color: white; 
+  font-family: 'cooper_blackregular';
+  font-weight:bold;
+  color: #FFFFFF;
+}
 
 #header p {
   font-size: 2em;
   line-height: 1.65em;
-  color: white }
+  color: white ;
+  font-family: 'cooper_blackregular';
+}
 
 #header a {
-  color: inherit; }
+  color: inherit; 
+  font-family: 'cooper_blackregular';
+}
 
 @media screen and (max-width: 736px) {
   #header h1 {
